@@ -1,0 +1,10 @@
+vpc_name = "devops"
+cidr_block = "10.20.0.0/16"
+cidr_block_public_subnet = ["10.20.1.0/24","10.20.2.0/24","10.20.3.0/24"]
+cidr_block_private_subnet = ["10.20.4.0/24","10.20.5.0/24","10.20.6.0/24"]
+avzs = ["us-east-1a","us-east-1b","us-east-1c"]
+ami = "ami-080e1f13689e07408"
+instance_type = "t2.micro"
+key_name = "newkp"
+private_ip = "10.20.4.5"
+profile = "priya-role"
